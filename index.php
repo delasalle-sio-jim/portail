@@ -24,7 +24,7 @@
 			<div id="header-menu">
 			</div>
 			<div id="header-logos">
-				<img src="images/Logo_DLS.gif" id="logo-gauche" alt="Lycée De La Salle (Rennes)" />
+				<img src="images/Logo_DLS.png" id="logo-gauche" alt="Lycée De La Salle (Rennes)" />
 				<img src="images/Intitules_bts_ig_sio.png" id="logo-droite" alt="BTS Informatique" />
 			</div>
 		</div>
@@ -40,8 +40,14 @@
 			<h2>Annuaire des anciens étudiants et site de l'association</h2>
 			<div id="pages">
 				<p><a href="http://sio.lyceedelasalle.fr/ae/" class="gros-bouton-menu">Annuaire des anciens élèves<br>et inscription à la soirée annuelle</a></p>
-				<p><a href="http://dlsinpact.fr" class="gros-bouton-menu">Site de l'association Inpact<br>du Lycée De La Salle</a></p>
+				<p><a href="http://inpact.lyceedelasalle.fr/www/inpact/index.php" class="gros-bouton-menu">Site de l'association Inpact<br>du Lycée De La Salle</a></p>
 			</div>
+			
+			<h2>Présentation du nouveau BTS SIO</h2>
+			<div id="pages">
+				<p><a href="NouveauBTS.php" class="gros-bouton-menu"> BTS SIO v2 cybersécurité</a></p>
+			</div>		
+
 			
 		</div>
 			
