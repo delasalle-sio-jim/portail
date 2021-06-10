@@ -17,6 +17,9 @@
 	<link rel="icon" type="image/x-icon" href="images/favicon.ico" />
 	<link rel="icon" type="image/png" href="images/favicon.png" />
 </head>
+<?php include_once ('../ae/modele/Outils.class.php');
+      include_once ('../ae/modele/DAO.class.portail.php');
+      $dao = new DAO(); ?>
 <body>
 	<div id="page">
 	
@@ -34,27 +37,19 @@
 			
 		<div id="content">
 			 		
-			<h2>Documents destinés aux étudiants et aux maîtres de stages</h2>
-			<div id="pages">
-				<p><a href="documents/liste_des_compétences_SIO.xlsx" class="petit-bouton-menu">Liste des activités et compétences associées (format Excel)</a></p>
-				<p><a href="documents/Suivi_SIO_manuel_etudiant.pdf" class="petit-bouton-menu">Manuel utilisateur de l'application Suivi SIO (format PDF)</a></p>
-			</div>
-
-			<h2>Documents destinés aux stagiaires SIO1</h2>
-			<div id="pages">
-				<p><a href="documents/consignes_etudiants_stage_SIO1.docx" class="petit-bouton-menu">Consignes aux étudiants pour le stage SIO1 (format Word)</a></p>
-				<p><a href="documents/infos_tuteur_stage_SIO1.docx" class="petit-bouton-menu">Informations pour le maître de stage SIO1 (format Word)</a></p>
-				<p><a href="documents/CR_SIO1_Prenom_Nom_semaine_X.docx" class="petit-bouton-menu">Compte rendu hebdomadaire du stagiaire (format Word)</a></p>
-				<p><a href="documents/AttestationDeStage2021_SIO1.docx" class="petit-bouton-menu">Attestation de stage SIO1 pour <?php echo date('Y') ?> (format Word)</a></p>
-			</div>
-
-			<h2>Documents destinés aux stagiaires SIO2</h2>
-			<div id="pages">
-				<p><a href="documents/consignes_etudiants_stage_SIO2.docx" class="petit-bouton-menu">Consignes aux étudiants pour le stage SIO2 (format Word)</a></p>
-				<p><a href="documents/infos_tuteur_stage_SIO2.docx" class="petit-bouton-menu">Informations pour le maître de stage SIO2 (format Word)</a></p>
-				<p><a href="documents/CR_SIO2_Prenom_Nom_semaine_X.docx" class="petit-bouton-menu">Compte rendu hebdomadaire du stagiaire (format Word)</a></p>
-				<p><a href="documents/AttestationDeStage2021_SIO2.docx" class="petit-bouton-menu">Attestation de stage SIO2 pour <?php echo date('Y') ?> (format Word)</a></p>
-			</div>
+			<?php  
+			$lesGroupes = $dao->getLesGroupesSansDocuments();
+			foreach($lesGroupes as $leGroupe)
+			{
+			    ?><h2><?php echo $leGroupe->getNomGroupe();?></h2><?php 
+			    $idGroupe = $leGroupe->getId();
+			    $lesDocuments = $dao->getLesDocumentsDuGroupe($idGroupe);
+			    foreach($lesDocuments as $leDocument)
+			    {?> 
+			        <p><a href="documents/<?php echo $leDocument->getNomDuFichier()?>" class="petit-bouton-menu" target="_blank"><?php echo $leDocument->getNomSurBouton()?></a>
+			    <?php }
+			}
+			?>
 			
 		</div>
 			

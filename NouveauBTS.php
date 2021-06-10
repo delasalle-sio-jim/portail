@@ -36,18 +36,28 @@
 			 		
 			<h2>Qu'est ce que le BTS SIO v2 ?</h2>
 			<div id="pages">
-				Depuis l'année 2020, le BTS SIO a été "mis à jour" afin de mieux correspondre aux attentes des entreprises d'aujourd'hui, 
-				la programmation ainsi que le réseautage informatique ne suffisent plus face aux nouvelles attentes des employeurs.
-				Depuis l'instauration du RGPD (Règlement Général sur la Protection des Données) en 2016 ainsi qu'avec l'avênement des cyberattaques 
-				effectuées sur des entreprises qui deviennent de plus en plus numérique, il est maintenant nécessaire d'avoir de l'expérience en cybersécurité,
-				c'est la raison pour laquelle cette nouvelle version du BTS SIO propose désormais un module cybersécurité qui vient complémenter les options SLAM ET SISR.
+				Depuis la rentrée de 2020, une nouvelle version du BTS SIO est arrivée, apportant avec elle un module sur la cybersécurité. 
+				<p>
+				<br></br>
+				<br><b>En première année</b> : Les élèves seront formés sur de diverses compétences telles que la protection des données à caractère personnel,
+				 sécuriser les équipements et les usages des utilisateurs et garantir la disponibilité, l'intégrité et la confidentialité des services informatiques face à des cyberattaques.</br>
+				</p>
+				<br></br>
+				<p><b>En deuxième année</b> : le programme de cybersécurité varie en fonction de la spécialité choisie par l'élève : 
+				</p>
+				<br></b>
+				<p><b>-Option SISR</b> : Assurer la cybersécurité d'une infrastructure réseau, d'un système, d'un service.</p>
 				
+				<p><b>-Option SLAM</b> : Assurer la cybersécurité d'une solution applicative et de son développement.</p>
+				<br></br>
 				<center><img src="images/competences_bts_sio.png" id="competences" alt="Compétences de BTS SIO" class="centre" /></center>
+				<br></br>
 				
 				Pour plus d'informations, nous vous invitons à consulter les sites ci-dessous : 
-				
+				<br></br>
 				<p><a href="https://www.btsinfo.fr/le-bts-sio/" class="petit-bouton-menu">btsinfo.fr</a></p>
 				<p><a href="https://www.cned.fr/bts/bts-services-informatiques-aux-organisations-sio" class="petit-bouton-menu">cned.fr</a></p>
+				<p><a href="https://www.reseaucerta.org/sites/default/files/sio/BTS_ServicesInformatiquesOrganisations2019.pdf" class="petit-bouton-menu">reseaucerta.org</a>
 			</div>
 		</div>
 	</div>
