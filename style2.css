@@ -1,7 +1,7 @@
 /* Feuille de styles de la version HTML5 pour terminaux fixes */
-/* Modifié le 06/06/2016 par Killian BOUTIN */
+/* Modifiï¿½ le 06/06/2016 par Killian BOUTIN */
 
-/* ----------------- Mise en forme de la structure générale -------------------- */
+/* ----------------- Mise en forme de la structure gï¿½nï¿½rale -------------------- */
 
 * {
   margin: 0; padding: 0;
@@ -24,7 +24,7 @@ div#page {
 	-khtml-border-radius: 15px;
 	border-radius: 15px;
 	
-	/* fond avec un dégradé de couleur (blanc en haut, gris léger en bas) */
+	/* fond avec un dï¿½gradï¿½ de couleur (blanc en haut, gris lï¿½ger en bas) */
 	background: -moz-linear-gradient(top, rgb(255, 255, 255), rgb(210, 210, 210));
 	background: -webkit-gradient(linear, left top, left bottom, from(rgb(255, 255, 255)), to(rgb(210, 210, 210)));
 	background: linear-gradient(to bottom, rgb(255, 255, 255), rgb(210, 210, 210));
@@ -37,7 +37,7 @@ body {
 	margin: 0;
 	padding: 10px 0 0 0;
 	
-	/* fond avec un dégradé de couleur (blanc en haut, gris en bas) */
+	/* fond avec un dï¿½gradï¿½ de couleur (blanc en haut, gris en bas) */
 	background: -moz-linear-gradient(top, rgb(255, 255, 255), rgb(210, 210, 210));
 	background: -webkit-gradient(linear, left top, left bottom, from(rgb(255, 255, 255)), to(rgb(210, 210, 210)));
 	background: linear-gradient(to bottom, rgb(255, 255, 255), rgb(210, 210, 210));
@@ -52,11 +52,11 @@ html {
 
 /* style de la division id="footer" */
 div#footer {
-	/* hauteur, padding, marge en haut, couleur d'arrière-plan */
+	/* hauteur, padding, marge en haut, couleur d'arriï¿½re-plan */
 	height: 36px;
 	padding: 0; 
 	margin: 20px 0 0 0;
-	background-color: #00A3E4;
+	background-color: #3baa38;
 	
 	/* coins arrondis en bas uniquement */
 	-moz-border-radius: 0 0 15px 15px;
@@ -92,11 +92,11 @@ div#header {
 
 /* style de la division id="header-menu" */
 div#header-menu {
-	/* hauteur, padding, marge, couleur d'arrière-plan */
+	/* hauteur, padding, marge, couleur d'arriï¿½re-plan */
 	height: 36px;
 	padding: 0;
 	margin: 0;
-	background: #00A3E4;
+	background: #3baa38;
 	
 	/* coins arrondis en haut uniquement */
 	-moz-border-radius: 15px 15px 0 0;
@@ -115,7 +115,7 @@ ul#menu-horizontal {
 	list-style-type: none; 
 }
 
-/* style des éléments <li> de la liste <ul id="menu-horizontal"> */
+/* style des ï¿½lï¿½ments <li> de la liste <ul id="menu-horizontal"> */
 ul#menu-horizontal li {
 	padding: 0;
 	margin: 0;
@@ -124,7 +124,7 @@ ul#menu-horizontal li {
 	text-align: center
 }
 
-/* style des liens hypertextes contenus dans les éléments <li> de la liste <ul id="menu-horizontal"> */
+/* style des liens hypertextes contenus dans les ï¿½lï¿½ments <li> de la liste <ul id="menu-horizontal"> */
 ul#menu-horizontal li a {
 	border-right: #fff 2px solid; 
 	display: block; 
@@ -138,10 +138,10 @@ ul#menu-horizontal li a {
 
 /* modification de couleur au survol de la souris */
 ul#menu-horizontal li a:hover {
-	background: #0b4c8e;
+	background: #247023;
 }
 
-/* ajout d'un coin arrondi (en haut et à gauche) au premier lien uniquement lors du survol de la souris */
+/* ajout d'un coin arrondi (en haut et ï¿½ gauche) au premier lien uniquement lors du survol de la souris */
 ul#menu-horizontal li:first-child a:hover {
 	-moz-border-radius: 15px 0 0 0;
 	-webkit-border-radius: 15px 0 0 0;
@@ -187,27 +187,27 @@ div#content h2 {
 	font: 1.5em Arial, Helvetica, sans-serif;
 	font-weight: bold;
 	
-	/* marge supérieure */
+	/* marge supï¿½rieure */
 	margin-top: 20px;
 	margin-bottom: 15px;
 	
-	/* margin des côtés */
+	/* margin des cï¿½tï¿½s */
 	margin-left: 35px;
 	margin-right: 35px;
 	
-	/* padding à gauche pour pouvoir y placer une image */
+	/* padding ï¿½ gauche pour pouvoir y placer une image */
 	padding-left: 35px;
 	
 	/* taille et couleur de la police, et hauteur de ligne */
-	color: #0b4c8e;
+	color: #247023;
 	line-height: 25px;
 	
-	/* ajout d'une image à gauche */
+	/* ajout d'une image ï¿½ gauche */
 	background: url(images/puce.png) no-repeat left bottom;
 	
 	/* ajout d'une bordure au-dessus et en-dessous */
-	border-top: #0b4c8e 1px solid;
-	border-bottom: #0b4c8e 1px solid;
+	border-top: #1d591c 1px solid;
+	border-bottom: #1d591c 1px solid;
 }
 
 /* style des balises <h3> de la division <div id="content"> */
@@ -218,7 +218,7 @@ div#content h3 {
 	/* taille et couleur de la police */
 	font: 1.3em Verdana, Arial, Helvetica, sans-serif;
 	font-weight: bold;
-	color: #0b4c8e;
+	color: #247023;
 }
 
 
@@ -228,12 +228,12 @@ div#content h3 {
 a.gros-bouton-menu {
 	/* police, couleur et alignement du texte, style du lien */
 	font: 1.3em Arial, Helvetica, sans-serif;
-	color: #0b4c8e;
+	color: #247023;
 	text-align: center;
 	text-decoration: none;
 	font-weight: bold;
 
-	/* ombre portée du texte du bouton */
+	/* ombre portï¿½e du texte du bouton */
 	text-shadow: 0 1px 0 #fff;
 		
 	/* dimensions, margin, padding, type d'affichage, bordure */
@@ -251,12 +251,12 @@ a.gros-bouton-menu {
 	-khtml-border-radius: 7px;
 	border-radius: 7px;
 	
-	/* fond avec un dégradé de couleur (blanc en haut, gris en bas) */
+	/* fond avec un dï¿½gradï¿½ de couleur (blanc en haut, gris en bas) */
 	background: -moz-linear-gradient(top, rgb(255, 255, 255), rgb(220, 220, 220));
 	background: -webkit-gradient(linear, right top, right bottom, from(rgb(255, 255, 255)), to(rgb(220, 220, 220)));
 	background: linear-gradient(to bottom, rgb(255, 255, 255), rgb(220, 220, 220));
 	
-	/* ombre portée du bouton */
+	/* ombre portï¿½e du bouton */
 	-webkit-box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.3);
 	-moz-box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.3);
 	-o-box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.3);
@@ -265,7 +265,7 @@ a.gros-bouton-menu {
 
 /* modification au survol des liens hypertextes <a> avec l'attribut class="gros-bouton-menu" */
 a.gros-bouton-menu:hover {
-	/* fond avec un dégradé de couleur (blanc en haut, gris plus soutenu en bas) */
+	/* fond avec un dï¿½gradï¿½ de couleur (blanc en haut, gris plus soutenu en bas) */
 	background: -moz-linear-gradient(top, rgb(255, 255, 255), rgb(200, 200, 200));
 	background: -webkit-gradient(linear, right top, right bottom, from(rgb(255, 255, 255)), to(rgb(200, 200, 200)));
 	background: linear-gradient(to bottom, rgb(255, 255, 255), rgb(200, 200, 200));
@@ -275,12 +275,12 @@ a.gros-bouton-menu:hover {
 a.petit-bouton-menu {
 	/* police, couleur et alignement du texte, style du lien */
 	font: 1.1em Arial, Helvetica, sans-serif;
-	color: #0b4c8e;
+	color: #247023;
 	text-align: center;
 	text-decoration: none;
 	font-weight: bold;
 
-	/* ombre portée du texte du bouton */
+	/* ombre portï¿½e du texte du bouton */
 	text-shadow: 0 1px 0 #fff;
 		
 	/* dimensions, margin, padding, type d'affichage, bordure */
@@ -298,12 +298,12 @@ a.petit-bouton-menu {
 	-khtml-border-radius: 7px;
 	border-radius: 7px;
 	
-	/* fond avec un dégradé de couleur (blanc en haut, gris en bas) */
+	/* fond avec un dï¿½gradï¿½ de couleur (blanc en haut, gris en bas) */
 	background: -moz-linear-gradient(top, rgb(255, 255, 255), rgb(220, 220, 220));
 	background: -webkit-gradient(linear, right top, right bottom, from(rgb(255, 255, 255)), to(rgb(220, 220, 220)));
 	background: linear-gradient(to bottom, rgb(255, 255, 255), rgb(220, 220, 220));
 	
-	/* ombre portée du bouton */
+	/* ombre portï¿½e du bouton */
 	-webkit-box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.3);
 	-moz-box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.3);
 	-o-box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.3);
@@ -312,7 +312,7 @@ a.petit-bouton-menu {
 
 /* modification au survol des liens hypertextes <a> avec l'attribut class="petit-bouton-menu" */
 a.petit-bouton-menu:hover {
-	/* fond avec un dégradé de couleur (blanc en haut, gris plus soutenu en bas) */
+	/* fond avec un dï¿½gradï¿½ de couleur (blanc en haut, gris plus soutenu en bas) */
 	background: -moz-linear-gradient(top, rgb(255, 255, 255), rgb(200, 200, 200));
 	background: -webkit-gradient(linear, right top, right bottom, from(rgb(255, 255, 255)), to(rgb(200, 200, 200)));
 	background: linear-gradient(to bottom, rgb(255, 255, 255), rgb(200, 200, 200));

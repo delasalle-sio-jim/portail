@@ -17,8 +17,8 @@
 	<link rel="icon" type="image/x-icon" href="images/favicon.ico" />
 	<link rel="icon" type="image/png" href="images/favicon.png" />
 </head>
-<?php include_once ('../ae/modele/Outils.class.php');
-      include_once ('../ae/modele/DAO.class.portail.php');
+<?php include_once ('../ae2/modele/Outils.class.php');
+      include_once ('../ae2/modele/DAO.class.portail.php');
       $dao = new DAO(); ?>
 <body>
 	<div id="page">

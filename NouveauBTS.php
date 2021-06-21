@@ -55,9 +55,9 @@
 				
 				Pour plus d'informations, nous vous invitons à consulter les sites ci-dessous : 
 				<br></br>
-				<p><a href="https://www.btsinfo.fr/le-bts-sio/" class="petit-bouton-menu">btsinfo.fr</a></p>
-				<p><a href="https://www.cned.fr/bts/bts-services-informatiques-aux-organisations-sio" class="petit-bouton-menu">cned.fr</a></p>
-				<p><a href="https://www.reseaucerta.org/sites/default/files/sio/BTS_ServicesInformatiquesOrganisations2019.pdf" class="petit-bouton-menu">reseaucerta.org</a>
+				<p><a href="https://www.btsinfo.fr/le-bts-sio/" target="_blanck" class="petit-bouton-menu">btsinfo.fr</a></p>
+				<p><a href="https://www.cned.fr/bts/bts-services-informatiques-aux-organisations-sio" target="_blanck" class="petit-bouton-menu">cned.fr</a></p>
+				<p><a href="https://www.reseaucerta.org/sites/default/files/sio/BTS_ServicesInformatiquesOrganisations2019.pdf" target="_blanck" class="petit-bouton-menu">reseaucerta.org</a>
 			</div>
 		</div>
 	</div>
