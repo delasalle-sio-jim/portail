@@ -60,6 +60,9 @@
 				<p><a href="https://www.reseaucerta.org/sites/default/files/sio/BTS_ServicesInformatiquesOrganisations2019.pdf" target="_blanck" class="petit-bouton-menu">reseaucerta.org</a>
 			</div>
 		</div>
+		<div id="footer">
+			<p>Présentation du nouveau BTS SIO V2 - Pôle Sup De La Salle (Rennes)</p>
+		</div>
 	</div>
 </body>
 </html>

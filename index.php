@@ -33,13 +33,14 @@
 			 		
 			<h2>Portefeuille de compétences et ressources en lignes</h2>
 			<div id="pages">
-				<p><a href="../portefeuille/index.php" class="gros-bouton-menu">Application de gestion<br>du portefeuille de compétences</a></p>
+				<p><a href="../portefeuille/index.php" class="gros-bouton-menu">Application de gestion<br>du portefeuille de compétences v1</a></p>
+				<p><a href="../portfolio/index.php" class="gros-bouton-menu">Application de gestion<br>du portefeuille de compétences v2</a></p>
 				<p><a href="listeDocuments.php" class="gros-bouton-menu">Documents utiles aux stagiaires<br>et aux maîtres de stages</a></p>
 			</div>
 
 			<h2>Annuaire des anciens étudiants et site de l'association</h2>
 			<div id="pages">
-				<p><a href="http://sio.lyceedelasalle.fr/ae/" class="gros-bouton-menu">Annuaire des anciens élèves<br>et inscription à la soirée annuelle</a></p>
+				<p><a href="http://sio.lyceedelasalle.fr/ae/" class="gros-bouton-menu">Annuaire des anciens étudiants<br>et inscription à la soirée annuelle</a></p>
 				<p><a href="http://inpact.lyceedelasalle.fr/www/inpact/index.php" class="gros-bouton-menu">Site de l'association Inpact<br>du Lycée De La Salle</a></p>
 			</div>
 			

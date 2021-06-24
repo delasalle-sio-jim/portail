@@ -46,7 +46,7 @@
 			    $lesDocuments = $dao->getLesDocumentsDuGroupe($idGroupe);
 			    foreach($lesDocuments as $leDocument)
 			    {?> 
-			        <p><a href="documents/<?php echo $leDocument->getNomDuFichier()?>" class="petit-bouton-menu" target="_blank"><?php echo $leDocument->getNomSurBouton()?></a>
+			        <p><a href="documents/<?php echo utf8_encode($leDocument->getNomDuFichier())?>" class="petit-bouton-menu" target="_blank"><?php echo $leDocument->getNomSurBouton()?></a>
 			    <?php }
 			}
 			?>
@@ -54,7 +54,7 @@
 		</div>
 			
 		<div id="footer">
-			<p>Documents disponibles en téléchargement - BTS SIO - Lycée De La Salle (Rennes)</p>
+			<p>Documents disponibles en téléchargement - BTS SIO - Pôle Sup De La Salle (Rennes)</p>
 		</div>
 	</div>
 </body>
